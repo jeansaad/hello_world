@@ -9,8 +9,11 @@ requirements.txt: clean venv requirements-to-freeze.txt
 venv:
 	${PYTHON} -m venv venv
 
-test:
+test: lint
 	${PYTHON} setup.py test
+
+lint:
+	flake8
 
 dist:
 	${PYTHON} setup.py sdist
