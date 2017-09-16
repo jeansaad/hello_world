@@ -20,3 +20,5 @@ dist:
 
 clean:
 	-rm -r venv
+
+.PHONY: all test lint dist clean
