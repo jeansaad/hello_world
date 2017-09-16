@@ -25,7 +25,7 @@ for item in requirements:
     # we want to handle package names and also repo urls
     if getattr(item, 'url', None):  # older pip has url
         links.append(str(item.url))
-    if getattr(item, 'link', None): # newer pip has link
+    if getattr(item, 'link', None):  # newer pip has link
         links.append(str(item.link))
     if item.req:
         requires.append(str(item.req))
