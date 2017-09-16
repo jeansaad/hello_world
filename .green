@@ -1,0 +1,3 @@
+verbose = 2
+run-coverage = True
+include-patterns = hello_world/*
