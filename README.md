@@ -1,5 +1,7 @@
 # hello_world
 
+[![Updates](https://pyup.io/repos/github/jeansaad/hello_world/shield.svg)](https://pyup.io/repos/github/jeansaad/hello_world/)
+
 **hello_world** is a simple package for providing a quick and easy way
 to print out that message that every developer loves.
 
