@@ -18,7 +18,7 @@ try:
     # new versions of pip requires a session
     requirements = parse_requirements(requirements_filename,
                                       session=PipSession())
-except:
+except TypeError:
     requirements = parse_requirements(requirements_filename)
 
 for item in requirements:
