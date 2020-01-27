@@ -37,7 +37,7 @@ with open('README.md') as f:
     readme = f.read()
 
 with open('LICENSE') as f:
-    license = f.read()
+    license_type = f.read()
 
 setup(
     name='hello_world',
@@ -47,7 +47,7 @@ setup(
     author='Jean Saad',
     author_email='jeansaad@gmail.com',
     url='https://github.com/jeansaad/hello_world',
-    license=license,
+    license=license_type,
     packages=find_packages(exclude=('tests', 'docs')),
     install_requires=requires,
     dependency_links=links,
