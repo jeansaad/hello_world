@@ -11,6 +11,7 @@ venv:
 
 test: lint
 	${PYTHON} setup.py test
+	coverage xml
 
 lint:
 	flake8
@@ -19,6 +20,6 @@ dist:
 	${PYTHON} setup.py sdist
 
 clean:
-	-rm -r venv
+	- rm -r venv
 
 .PHONY: all test lint dist clean
