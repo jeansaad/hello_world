@@ -8,4 +8,4 @@ class BasicTest(TestCase):
         """
         Test basic hello world messaging
         """
-        self.assertTrue(callable(hello_world))
+        self.assertEqual(hello_world(), 'Hello, World!')
