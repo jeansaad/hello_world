@@ -1,5 +1,6 @@
 # hello_world
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a73a4e56be6f4743a816e914075470bc)](https://app.codacy.com/manual/jeansaad/hello_world?utm_source=github.com&utm_medium=referral&utm_content=jeansaad/hello_world&utm_campaign=Badge_Grade_Dashboard)
 [![Build Status](https://travis-ci.org/jeansaad/hello_world.svg)](https://travis-ci.org/jeansaad/hello_world) [![Updates](https://pyup.io/repos/github/jeansaad/hello_world/shield.svg)](https://pyup.io/repos/github/jeansaad/hello_world/) [![Python 3](https://pyup.io/repos/github/jeansaad/hello_world/python-3-shield.svg)](https://pyup.io/repos/github/jeansaad/hello_world/)
 
 **hello_world** is a simple package for providing a quick and easy way
